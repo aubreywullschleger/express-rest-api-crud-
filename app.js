@@ -12,3 +12,5 @@ app.use('/api/potions', potions);
 
 app.listen(process.env.PORT || 8080);
 console.log('Woot, server started');
+
+module.exports = app;
